@@ -7,6 +7,8 @@ This repository contains a movie recommendation system web application developed
 📁 Dataset:
 The TMDB 5000 Movies Dataset, sourced from Kaggle, serves as the foundation for the movie recommendation system. It includes information such as movie titles, genres, overview, cast, and crew. 🎥
 
+Read More Here👉: https://medium.com/@afaqueumer/tmdb-streamlit-build-your-own-movie-recommendation-system-f2ffbca63d11
+
 ⚙️ Technologies Used:
 - Python 🐍
 - Streamlit 🚀
@@ -40,6 +42,6 @@ This project is licensed under the MIT License. Please see the `LICENSE` file fo
 Contributions to this project are welcome! Feel free to open issues or submit pull requests.
 
 📧 Contact:
-For any inquiries or questions, feel free to reach out to [your-email@example.com].
+For any inquiries or questions, feel free to reach out to [afaqueumer33@gmail.com].
 
 🎥 Happy movie browsing and discovering new favorites! 🍿
