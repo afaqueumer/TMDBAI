@@ -77,9 +77,9 @@ with st.sidebar:
     st.header("Get Recommendations by 👇")
     search_type = st.radio("", ('Movie Title', 'Keywords'))
     st.header("Source Code 📦")
-    st.markdown("[GitHub Repository](https://www.example.com/my-blog)")    
+    st.markdown("[GitHub Repository](https://github.com/afaqueumer/TMDBAI)")    
     st.header("Blog 📝")
-    st.markdown("[Medium Article](https://www.example.com/my-blog)")
+    st.markdown("[Medium Article](https://medium.com/@afaqueumer/tmdb-streamlit-build-your-own-movie-recommendation-system-f2ffbca63d11)")
 
 # call functions based on selectbox
 if search_type == 'Movie Title': 
