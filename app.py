@@ -18,7 +18,7 @@ st.markdown(f"""
 
 # Load models and MovieDB
 df = joblib.load('models/movie_db.df')
-# cosine_sim = joblib.load('models/cosine.db')
+tfidf_matrix = joblib.load('models/tfidf_mat.tf')
 tfidf = joblib.load('models/vectorizer.tf')
 cos_mat = joblib.load('models/cos_mat.mt')
 
