@@ -30,7 +30,7 @@ def get_keywords_recommendations(keywords):
     # transform the string to vector representation
     key_tfidf = tfidf.transform([keywords]) 
     # compute cosine similarity    
-    result = cosine_similarity(key_tfidf, cos_mat)
+    result = cosine_similarity(key_tfidf, tfidf_matrix)
     # sort top n similar movies   
     similar_key_movies = sorted(list(enumerate(result[0])), reverse=True, key=lambda x: x[1])
     # extract names from dataframe and return movie names
